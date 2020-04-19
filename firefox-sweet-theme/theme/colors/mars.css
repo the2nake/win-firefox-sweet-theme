@@ -69,6 +69,7 @@
 	--sweet-button-destructive-action-active-background: #FF416C;
 	--sweet-button-destructive-action-active-border-color: #FF416C;
 	--sweet-button-destructive-action-active-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+	--sweet-privacy-icon: url(firefox-sweet-theme/theme/icons/privacy-icon-light.svg);
 
 	/* URL bar */
 	--sweet-urlbar-background: linear-gradient(#1c2023, #1c2023);

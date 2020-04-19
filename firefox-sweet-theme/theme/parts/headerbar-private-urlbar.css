@@ -20,6 +20,9 @@
 		filter: invert(100%);
 	}
 }
+:root[privatebrowsingmode="temporary"] #nav-bar {
+	overflow: hidden;
+}
 
 /* */
 #TabsToolbar .private-browsing-indicator {

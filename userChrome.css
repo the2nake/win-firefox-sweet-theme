@@ -2,35 +2,9 @@
 @namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
 
 #appMenu-fxa-label {
-    text-align: right !important;
     padding-left: 28px !important;
 }
 
-#appMenu-fxa-avatar {
-    margin-inline-start: 6px !important;
+#appMenu-protection-report-icon {
+    list-style-image: var(--sweet-privacy-icon) !important;
 }
-
-menu:hover,
-menuitem:hover {
-    color: white !important;
-    background-color: black !important;
-}
-
-menuitem,
-menu {
-    color: white !important;
-    background-color: black !important;
-}
-
-.close-icon:not(.tab-close-button) {
-    background: var(--sweet-button-destructive-action-hover-background) !important;
-}
-
-.close-icon:not(.tab-close-button):hover {
-    background: var(--sweet-button-destructive-action-background) !important;
-}
-.close-icon:not(.tab-close-button):active {
-    background: var(--sweet-button-destructive-action-active-background) !important;
-    border-color: var(--sweet-button-destructive-action-active-border-color) !important;
-}
-/**/

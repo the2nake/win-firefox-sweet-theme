@@ -77,7 +77,3 @@ findbar:-moz-window-inactive label,
 #TabsToolbar[movingtab] + #nav-bar {
 	margin-top: 0 !important;
 }
-
-toolbarseparator {
-	background-color: #333333;
-}
