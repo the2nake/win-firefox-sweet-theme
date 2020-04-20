@@ -10,9 +10,27 @@
 @import "parts/scrollbars.css";
 @import "parts/icons.css";
 @import "colors/light.css";
-@import "colors/dark.css";
+@import "colors/nova.css";
 @namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
 
 :root {
 	--space-above-tabbar: 0 !important;
+}
+
+html#main-window {
+	--panel-disabled-color: rgba(195, 199, 209, 0.5);
+--lwt-accent-color: rgb(12, 14, 20);
+--lwt-text-color: rgba(85, 84, 91);
+--arrowpanel-background: rgb(12, 14, 20);
+--arrowpanel-color: rgba(195, 199, 209, 1);
+--lwt-toolbar-field-background-color: rgb(12, 14, 20);
+--lwt-toolbar-field-color: var(--sweet-tabbar-tab-active-border-bottom-color);
+--lwt-toolbar-field-focus: rgba(12, 14, 20, 1);
+--lwt-toolbar-field-focus-color: var(--sweet-tabbar-tab-active-border-bottom-color);
+--toolbar-field-focus-border-color: var(--sweet-tabbar-tab-active-border-bottom-color);
+--toolbar-bgcolor: rgb(22, 25, 37);
+--toolbar-color: rgb(195, 199, 209);
+--autocomplete-popup-background: rgb(12, 14, 20);
+--autocomplete-popup-color: rgb(195, 199, 209);
+--autocomplete-popup-highlight-background: var(--sweet-tabbar-tab-active-border-bottom-color);
 }

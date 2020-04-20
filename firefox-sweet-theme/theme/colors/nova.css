@@ -43,7 +43,7 @@
 	--sweet-button-border-accent-color: #070707;	
 	--sweet-button-box-shadow: inset 0 1px rgba(255, 255, 255, 0.02), 0 1px 2px rgba(0, 0, 0, 0.07);	
 	--sweet-button-hover-background: linear-gradient(to top, #252a3f, #252a3f 1px);	
-	--sweet-button-active-background: linear-gradient(45deg,#5800E2, #FF00E6);
+	--sweet-button-active-background: linear-gradient(45deg,#972ab8, #e22851);
 	--sweet-button-active-border-color: #0c0e15;
 	--sweet-button-active-border-accent-color: #000000;
 	--sweet-button-active-box-shadow: inset 0 1px rgba(255, 255, 255, 0);	
@@ -54,12 +54,12 @@
 	--sweet-inactive-button-border-color: #0C0E14;
 	--sweet-inactive-button-box-shadow: inset 0 1px rgba(255, 255, 255, 0);
 	--sweet-button-suggested-action-background: linear-gradient(to top, #654ea3 2px, #eaafc8);
-	--sweet-button-suggested-action-border-color: #654ea3;
+	--sweet-button-suggested-action-border-color: rgb(89, 21, 147);
 	--sweet-button-suggested-action-border-accent-color: #092444;;
 	--sweet-button-suggested-action-box-shadow: inset 0 1px rgba(255, 255, 255, 0.02), 0 1px 2px rgba(0, 0, 0, 0.07);
 	--sweet-button-suggested-action-hover-background: linear-gradient(to top, #654ea3ec, #eaafc8ec 1px);
-	--sweet-button-suggested-action-active-background: #654ea3;
-	--sweet-button-suggested-action-active-border-color: #654ea3;
+	--sweet-button-suggested-action-active-background: rgb(89, 21, 147); 
+	--sweet-button-suggested-action-active-border-color: rgb(89, 21, 147); 
 	--sweet-button-suggested-action-active-box-shadow: inset 0 1px rgba(255, 255, 255, 0);	
 	--sweet-button-destructive-action-background: linear-gradient(to top, #FF416C 2px, #FF4B2B);
 	--sweet-button-destructive-action-border-color: #FF416C;
@@ -80,7 +80,7 @@
 	--sweet-inactive-urlbar-border-color: #202020;
 	--sweet-inactive-urlbar-box-shadow: none;
 	--sweet-inactive-urlbar-color: #d6d6d6;
-	--sweet-focused-urlbar-border-color: #C50ED2;
+	--sweet-focused-urlbar-border-color: rgb(175, 40, 74);
 	--sweet-private-urlbar-background: #25003e;
 
 	/* Tabs */
@@ -89,14 +89,14 @@
 	--sweet-tabbar-tab-hover-border-bottom-color: #0c0e15;
 	--sweet-tabbar-tab-hover-color: rgb(200, 200, 200);
 	--sweet-tabbar-tab-active-background: #161925;
-	--sweet-tabbar-tab-active-border-bottom-color: rgb(197, 14, 210);
+	--sweet-tabbar-tab-active-border-bottom-color: rgb(175, 40, 74);
 	--sweet-tabbar-tab-active-color: #C3C7D1;
 	--sweet-tabbar-tab-active-hover-background: #0C0E14;
 	--sweet-inactive-tabbar-tab-color: rgb(141, 144, 145);
 	--sweet-inactive-tabbar-tab-active-background: #0C0E14;
-	--sweet-inactive-tabbar-tab-active-border-bottom-color: rgb(197, 14, 210);
+	--sweet-inactive-tabbar-tab-active-border-bottom-color: rgb(175, 40, 74);
 	--sweet-inactive-tabbar-tab-active-color: rgb(141, 144, 145);  
 
-	--sweet-start-gradient-color: rgb(88, 0, 226);
-	--sweet-end-gradient-color: rgb(255, 0, 230);
+	--sweet-start-gradient-color: rgb(151, 42, 184);
+	--sweet-end-gradient-color: rgb(226, 40, 81);
 }
