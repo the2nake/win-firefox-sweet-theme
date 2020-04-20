@@ -18,19 +18,19 @@
 }
 
 html#main-window {
-	--panel-disabled-color: rgba(195, 199, 209, 0.5);
---lwt-accent-color: rgb(12, 14, 20);
---lwt-text-color: rgba(85, 84, 91);
---arrowpanel-background: rgb(12, 14, 20);
---arrowpanel-color: rgba(195, 199, 209, 1);
---lwt-toolbar-field-background-color: rgb(12, 14, 20);
---lwt-toolbar-field-color: var(--sweet-tabbar-tab-active-border-bottom-color);
---lwt-toolbar-field-focus: rgba(12, 14, 20, 1);
---lwt-toolbar-field-focus-color: var(--sweet-tabbar-tab-active-border-bottom-color);
---toolbar-field-focus-border-color: var(--sweet-tabbar-tab-active-border-bottom-color);
---toolbar-bgcolor: rgb(22, 25, 37);
---toolbar-color: rgb(195, 199, 209);
---autocomplete-popup-background: rgb(12, 14, 20);
---autocomplete-popup-color: rgb(195, 199, 209);
---autocomplete-popup-highlight-background: var(--sweet-tabbar-tab-active-border-bottom-color);
+	--panel-disabled-color: rgba(195, 199, 209, 0.5) !important;
+--lwt-accent-color: rgb(12, 14, 20) !important;
+--lwt-text-color: rgba(85, 84, 91) !important;
+--arrowpanel-background: rgb(12, 14, 20) !important;
+--arrowpanel-color: rgba(195, 199, 209, 1) !important;
+--lwt-toolbar-field-background-color: rgb(12, 14, 20) !important;
+--lwt-toolbar-field-color: var(--sweet-end-gradient-color) !important;
+--lwt-toolbar-field-focus: rgba(12, 14, 20, 1) !important;
+--lwt-toolbar-field-focus-color: var(--sweet-end-gradient-color) !important;
+--toolbar-field-focus-border-color: var(--sweet-end-gradient-color) !important;
+--toolbar-bgcolor: rgb(22, 25, 37) !important;
+--toolbar-color: rgb(195, 199, 209) !important;
+--autocomplete-popup-background: rgb(12, 14, 20) !important;
+--autocomplete-popup-color: rgb(195, 199, 209) !important;
+--autocomplete-popup-highlight-background: var(--sweet-end-gradient-color) !important;
 }

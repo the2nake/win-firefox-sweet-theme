@@ -33,7 +33,16 @@
 #search-box[focused], 
 .findbar-textbox[focused],
 .findbar-textbox:focus {
-	outline: 1.5px solid var(--sweet-focused-urlbar-border-color) !important;
+	outline: 2px solid var(--sweet-focused-urlbar-border-color) !important;
+	outline-offset: -2px;
+	-moz-outline-radius: 5px;
+}
+
+#urlbar:not(.megabar),
+#searchbar,
+#search-box, 
+.findbar-textbox {
+	outline: 1px solid var(--sweet-focused-urlbar-border-color) !important;
 	outline-offset: -2px;
 	-moz-outline-radius: 5px;
 }

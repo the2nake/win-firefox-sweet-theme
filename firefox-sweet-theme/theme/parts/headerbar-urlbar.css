@@ -19,14 +19,17 @@
 #urlbar-background {
 	display: none !important;
 }
-#urlbar.megabar[breakout][breakout-extend][breakout-extend-animate]  > .urlbarView {
+
+#urlbar.megabar[breakout][breakout-extend][breakout-extend-animate]>.urlbarView {
 	animation: none !important;
 }
+
 #urlbar.megabar[breakout][breakout-extend] {
 	left: 0 !important;
 	top: 0 !important;
 	width: 100% !important;
 }
+
 #urlbar.megabar[breakout][breakout-extend]:not([open]) {
 	height: 34px !important;
 }
@@ -35,20 +38,36 @@
 #urlbar.megabar[breakout][breakout-extend][open] {
 	border-radius: 5px 5px 9px 9px !important;
 }
-#urlbar.megabar[breakout][breakout-extend][open] #urlbar-input-container {
-	border-radius: 5px 5px 0 0 !important;
+
+#urlbar.megabar[breakout]:not([open]):not([focused]) #urlbar-input-container {
+	border-radius: 5px !important;
 	border-color: var(--sweet-focused-urlbar-border-color) !important;
-	border-bottom-color: transparent !important;
+	border-width: 1.5px !important;
+}
+
+#urlbar.megabar[breakout][focused]:not([open]) #urlbar-input-container {
+	border-radius: 5px !important;
+	border-color: var(--sweet-focused-urlbar-border-color) !important;
 	border-width: 2px !important;
 }
+
+#urlbar.megabar[breakout][breakout-extend][focused][open] #urlbar-input-container {
+	border-radius: 5px 5px 0 0 !important;
+	border-color: var(--sweet-focused-urlbar-border-color) !important;
+	border-bottom-color: transparent;
+	border-width: 2px !important;
+}
+
 #urlbar.megabar[breakout][breakout-extend][open] #identity-box[pageproxystate="invalid"],
 #urlbar.megabar[breakout][breakout-extend][open] #tracking-protection-icon-container {
 	padding-inline-start: 5px !important;
 }
+
 #urlbar.megabar[breakout][breakout-extend][open] .urlbar-page-action:last-child {
 	margin-right: -1px !important;
 }
-#urlbar.megabar[breakout][breakout-extend][open] .urlbarView {
+
+#urlbar.megabar[breakout][breakout-extend][focused] .urlbarView {
 	border-radius: 0 0 5px 5px !important;
 	border-color: var(--sweet-focused-urlbar-border-color) !important;
 	border-width: 2px !important;
@@ -63,10 +82,12 @@ toolbarspring {
 #urlbar[focused] .urlbar-textbox-container {
 	margin: -1px !important;
 }
-#searchbar > .searchbar-textbox[focused] .searchbar-search-button {
+
+#searchbar>.searchbar-textbox[focused] .searchbar-search-button {
 	margin-left: -1px !important;
 }
-#searchbar > .searchbar-textbox[focused] .search-go-button {
+
+#searchbar>.searchbar-textbox[focused] .search-go-button {
 	margin-right: -1px !important;
 }
 
@@ -90,7 +111,7 @@ toolbarspring {
 	right: var(--item-padding-end) !important;
 	top: 40px !important;
 	z-index: 10 !important;
-	max-width: 100% !important;	
+	max-width: 100% !important;
 	background: var(--sweet-popover-background) !important;
 	border: 1px solid !important;
 	border-color: var(--sweet-popover-border-color) !important;
@@ -104,7 +125,7 @@ toolbarspring {
 	max-height: 35vh !important;
 	overflow-x: auto;
 }
-	
+
 #urlbar .search-one-offs {
 	padding: 8px 0 0 0 !important;
 	margin-top: 8px !important;
@@ -116,11 +137,13 @@ toolbarspring {
 	border-radius: 5px !important;
 	margin-bottom: 5px !important;
 }
-#urlbar .urlbarView-row-inner, #urlbar .urlbarView-no-wrap  {
+
+#urlbar .urlbarView-row-inner,
+#urlbar .urlbarView-no-wrap {
 	align-items: center !important;
 }
 
-#urlbar .search-panel-header > label {
+#urlbar .search-panel-header>label {
 	margin-top: 0px !important;
 	margin-left: 6px !important;
 }
@@ -141,16 +164,20 @@ toolbarspring {
 	padding: 0px !important;
 	border-color: var(--sweet-urlbar-border-color) !important;
 }
+
 #urlbar.megabar .urlbarView-body-outer {
 	padding: 0 8px !important;
 }
+
 #urlbar.megabar .urlbarView-body-inner {
 	border: 0 !important;
 }
+
 #urlbar.megabar .urlbarView-row-inner {
 	padding-block: 5px !important;
 	border-radius: 5px !important;
 }
+
 #urlbar.megabar .search-one-offs {
 	margin-top: 6px !important;
 	padding: 8px !important;
@@ -176,21 +203,26 @@ toolbarspring {
 	min-width: 34px !important;
 	margin: 0 !important;
 }
-#urlbar .searchbar-engine-one-off-item:hover, .searchbar-engine-one-off-item[selected] {
+
+#urlbar .searchbar-engine-one-off-item:hover,
+.searchbar-engine-one-off-item[selected] {
 	background: var(--sweet-button-hover-background) !important;
 	color: unset !important;
 }
-#urlbar .searchbar-engine-one-off-item:first-child {	
+
+#urlbar .searchbar-engine-one-off-item:first-child {
 	border-radius: 5px 0 0 5px;
 	border-left-width: 1px !important;
 }
-#urlbar .searchbar-engine-one-off-item.last-engine, .searchbar-engine-one-off-item:last-child {	
+
+#urlbar .searchbar-engine-one-off-item.last-engine,
+.searchbar-engine-one-off-item:last-child {
 	border-radius: 0 5px 5px 0;
 }
 
-#urlbar  #urlbar-anon-search-settings-compact {
+#urlbar #urlbar-anon-search-settings-compact {
 	border-left-width: 1px !important;
 	border-bottom: 1px solid var(--sweet-button-border-accent-color) !important;
-	border-radius: 5px;	
+	border-radius: 5px;
 	margin-left: 6px !important;
 }
