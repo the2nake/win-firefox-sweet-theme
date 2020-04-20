@@ -22,6 +22,7 @@ hbox[anonid="findbar-textbox-wrapper"] {
 
 .findbar-textbox {
 	margin-left: 60px !important;
+	max-height: 30px !important;
 }
 
 .findbar-find-status:not(:-moz-only-whitespace), .found-matches[hidden] ~ .findbar-find-status, .found-matches {
@@ -44,4 +45,10 @@ hbox[anonid="findbar-textbox-wrapper"] {
 	.findbar-find-status, .found-matches {
 		order: 0;
 	}
+}
+
+toolbarbutton.findbar-find-previous.tabbable, toolbarbutton.findbar-find-next.tabbable {
+	min-height: 28px !important;
+	min-width: 28px !important;
+	padding: 2px !important;
 }
