@@ -1,4 +1,4 @@
-# win-firefox-sweet-theme
+# 🦊 win-firefox-sweet-theme
 A modification of EliverLara's theme firefox-sweet-theme for Windows. Works with Firefox 75.0.
 ![Screenshots](firefox-sweet-theme/images/preview.png)
 
