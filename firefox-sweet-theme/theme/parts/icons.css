@@ -145,9 +145,13 @@ menuitem[type="radio"]:not([disabled="true"]):hover .menu-iconic-icon {
 }
 
 /* Close button */
-.close-icon,
+.close-icon:not(.tab-close-button),
 .identity-popup-permission-remove-button .button-icon {
 	list-style-image: url("../icons/window-close-symbolic-light.svg") !important;
+}
+
+.close-icon.tab-close-button {
+	list-style-image: url("../icons/window-close-symbolic.svg") !important;
 }
 
 /* Window buttons */
