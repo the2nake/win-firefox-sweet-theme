@@ -91,6 +91,10 @@ toolbarspring {
 	transform: translate(15px, 0);	
 }
 
+/* Stick into PersonalToolbar*/
+#nav-bar {
+	overflow: visible !important;
+}
 
 /* URL bar and Search bar */
 #urlbar[focused] .urlbar-textbox-container {
