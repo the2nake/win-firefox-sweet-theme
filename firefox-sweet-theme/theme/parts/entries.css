@@ -64,6 +64,7 @@
 	border-top-right-radius: 0 !important;
 	border-bottom-right-radius: 0 !important;
 	border-right-width: 0 !important;
+	-moz-outline-radius: 5px 0 0 5px !important;
 }
 .findbar-textbox:not(.minimal)[focused], .findbar-textbox:not(.minimal):focus {
 	-moz-outline-radius: 5px 0 0 5px !important;
