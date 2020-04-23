@@ -84,9 +84,9 @@ toolbarspring {
 	content: "";
 	display: block;	
 	position: absolute;
-	width: 64px;
-	height: 64px;
-	top: 0;
+	width: 80px;
+	height: 80px;
+	top: -16px;
 	opacity: 0.3;
 	transform: translate(15px, 0);	
 }

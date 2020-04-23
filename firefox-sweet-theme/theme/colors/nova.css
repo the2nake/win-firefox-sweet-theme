@@ -96,6 +96,7 @@
 	--sweet-inactive-tabbar-tab-active-background: #0C0E14;
 	--sweet-inactive-tabbar-tab-active-border-bottom-color: rgb(175, 40, 74);
 	--sweet-inactive-tabbar-tab-active-color: rgb(141, 144, 145);  
+	--sweet-tab-text-shadow: rgb(175, 40, 74);
 
 	--sweet-start-gradient-color: rgb(151, 42, 184);
 	--sweet-end-gradient-color: rgb(226, 40, 81);
