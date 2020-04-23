@@ -10,7 +10,7 @@
 @import "parts/scrollbars.css";
 @import "parts/icons.css";
 @import "colors/light.css";
-@import "colors/nova.css";
+@import "colors/mars.css";
 @namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
 
 :root {
@@ -24,13 +24,13 @@ html#main-window {
 --arrowpanel-background: rgb(12, 14, 20) !important;
 --arrowpanel-color: rgba(195, 199, 209, 1) !important;
 --lwt-toolbar-field-background-color: rgb(12, 14, 20) !important;
---lwt-toolbar-field-color: var(--sweet-end-gradient-color) !important;
+--lwt-toolbar-field-color: var(--sweet-focused-urlbar-border-color) !important;
 --lwt-toolbar-field-focus: rgba(12, 14, 20, 1) !important;
---lwt-toolbar-field-focus-color: var(--sweet-end-gradient-color) !important;
---toolbar-field-focus-border-color: var(--sweet-end-gradient-color) !important;
+--lwt-toolbar-field-focus-color: var(--sweet-focused-urlbar-border-color) !important;
+--toolbar-field-focus-border-color: var(--sweet-focused-urlbar-border-color) !important;
 --toolbar-bgcolor: rgb(22, 25, 37) !important;
 --toolbar-color: rgb(195, 199, 209) !important;
 --autocomplete-popup-background: rgb(12, 14, 20) !important;
 --autocomplete-popup-color: rgb(195, 199, 209) !important;
---autocomplete-popup-highlight-background: var(--sweet-end-gradient-color) !important;
+--autocomplete-popup-highlight-background: var(--sweet-focused-urlbar-border-color) !important;
 }
