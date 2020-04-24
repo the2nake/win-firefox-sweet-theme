@@ -80,8 +80,9 @@
 	--sweet-inactive-urlbar-border-color: #202020;
 	--sweet-inactive-urlbar-box-shadow: none;
 	--sweet-inactive-urlbar-color: #d6d6d6;
-	--sweet-focused-urlbar-border-color: #F67E7D;
+	--sweet-focused-urlbar-border-color: rgb(255, 70, 66);
 	--sweet-private-urlbar-background: #25003e;
+	--sweet-select-urlbar-border-color: rgb(255, 0, 93);
 
 	/* Tabs */
 	--sweet-tabbar-tab-color: rgb(141, 144, 145);
@@ -98,6 +99,6 @@
 	--sweet-inactive-tabbar-tab-active-color: rgb(141, 144, 145);
 	--sweet-tab-text-shadow: #F67E7D7F;
     
-    --sweet-start-gradient-color: #ff005d;
-    --sweet-end-gradient-color: #ff8b26;
+    --sweet-start-gradient-color: rgb(255, 0, 93);
+    --sweet-end-gradient-color: rgb(255, 139, 38);
 }

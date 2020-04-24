@@ -82,6 +82,7 @@
 	--sweet-inactive-urlbar-color: #d6d6d6;
 	--sweet-focused-urlbar-border-color: rgb(175, 40, 74);
 	--sweet-private-urlbar-background: #25003e;
+	--sweet-select-urlbar-border-color: rgb(233, 53, 99);
 
 	/* Tabs */
 	--sweet-tabbar-tab-color: rgb(141, 144, 145);
