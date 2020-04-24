@@ -194,8 +194,8 @@ menulist[open] .menulist-label-box,
 /* Combined buttons */
 #nav-bar .toolbaritem-combined-buttons toolbarbutton:not(:last-of-type):not(#hack),
 #nav-bar #back-button:not(#hack),
-.subviewbutton.panel-subview-footer:not(:only-of-type):not(:last-of-type),
-.panel-footer button:not(:only-of-type):not(:last-of-type),
+.subviewbutton.panel-subview-footer:not(:only-of-type),
+.panel-footer button:not(:only-of-type):not(:first-of-type):not(:nth-of-type(2)),
 #appMenu-popup .toolbaritem-combined-buttons toolbarbutton:not(:last-of-type):not(#appMenu-zoomEnlarge-button),
 #context-navigation menuitem:not(:last-of-type),
 .findbar-container toolbarbutton.findbar-find-previous {
@@ -208,7 +208,7 @@ menulist[open] .menulist-label-box,
 #nav-bar .toolbaritem-combined-buttons toolbarbutton:not(:first-of-type):not(#hack),
 #nav-bar #forward-button:not(#hack),
 .subviewbutton.panel-subview-footer:not(:only-of-type):not(:first-of-type),
-.panel-footer button:not(:only-of-type):not(:first-of-type),
+.panel-footer button:not(:only-of-type):not(:last-of-type):not(:nth-of-type(2)),
 #appMenu-popup .toolbaritem-combined-buttons toolbarbutton:not(:first-of-type):not(#appMenu-fullscreen-button),
 #context-navigation menuitem:not(:first-of-type),
 .findbar-container toolbarbutton.findbar-find-previous,
@@ -280,4 +280,13 @@ button.popup-notification-primary-button.popup-notification-button:active,
 	margin: 0 !important;
 	padding: 0 !important;
 	width: 24px !important;
+}
+
+
+button.popup-notification-button.popup-notification-primary-button:not([hidden])[label="Okay, Got It"][accesskey="O"] {
+	border-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
 }
