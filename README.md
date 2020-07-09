@@ -13,6 +13,7 @@ A modification of EliverLara's theme firefox-sweet-theme for Windows. Works with
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.tabs.drawInTitlebar", false);
 ```
-6. Install the theme Sweet-Dark at https://addons.mozilla.org/en-US/firefox/addon/sweet-dark/
-7. Restart Firefox (open and close the program)
-8. The theme will be complete.
+6. In the hamburger menu, click "Customize" and change the theme to a dark one.
+
+## Known bugs
+* The icons for the "light" variant are not ready yet.

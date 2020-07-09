@@ -9,28 +9,18 @@
 @import "parts/remove-white-flash.css";
 @import "parts/scrollbars.css";
 @import "parts/icons.css";
-@import "colors/light.css";
-@import "colors/nova.css";
+@import "colors/dark.css";
+@import "colors/mars.css";
+
+
+/* light and dark defined UI, mars, peace, nova modifies the color scheme */
+
 @namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
 
 :root {
 	--space-above-tabbar: 0 !important;
 }
 
-html#main-window {
-	--panel-disabled-color: rgba(195, 199, 209, 0.5) !important;
---lwt-accent-color: rgb(12, 14, 20) !important;
---lwt-text-color: rgba(85, 84, 91) !important;
---arrowpanel-background: rgb(12, 14, 20) !important;
---arrowpanel-color: rgba(195, 199, 209, 1) !important;
---lwt-toolbar-field-background-color: rgb(12, 14, 20) !important;
---lwt-toolbar-field-color: var(--sweet-select-urlbar-border-color) !important;
---lwt-toolbar-field-focus: rgba(12, 14, 20, 1) !important;
---lwt-toolbar-field-focus-color: var(--sweet-select-urlbar-border-color) !important;
---toolbar-field-focus-border-color: var(--sweet-select-urlbar-border-color) !important;
---toolbar-bgcolor: rgb(22, 25, 37) !important;
---toolbar-color: rgb(195, 199, 209) !important;
---autocomplete-popup-background: rgb(12, 14, 20) !important;
---autocomplete-popup-color: rgb(195, 199, 209) !important;
---autocomplete-popup-highlight-background: var(--sweet-select-urlbar-border-color) !important;
+#context-navigation {
+	background-color: #ffffff00 !important;
 }
